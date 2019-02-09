@@ -3,6 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
+
 }
 
 a {
@@ -15,6 +16,10 @@ li {
 
 h1 {
   font-family: 'Playfair Display', serif;
+}
+
+body {
+	box-sizing: border-box;
 }
 
 .wrapper {
@@ -33,9 +38,6 @@ header {
 	display: flex;
 }
 
-header .logo {
-	margin-left: 20%;
-}
 
 nav {
   float: right;
@@ -112,6 +114,12 @@ nav {
 	padding: 12px 17px 12px 17px;
 }
 
+.my_button a:hover {
+	background-color:#00e0d0;
+	color: black;
+	transition: 0.1s ease-out 0.1s
+}
+
 .main_welcome ul {
 	display: flex;
   justify-content: space-between;
@@ -141,7 +149,7 @@ nav {
 	margin-left: 70px;
 }
 
-.our_story h1 {
+.our_story h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	color: #413d4b;
@@ -183,6 +191,12 @@ nav {
 	padding: 12px 17px 12px 17px;
 }
 
+.our_story_my_button a:hover {
+	background-color:#00e0d0;
+	color: black;
+	transition: 0.1s ease-out 0.1s
+}
+
 
 .about_us {
 	padding-left: 100px;
@@ -199,8 +213,12 @@ nav {
 .video_block a {
 	display: inline-block;
 	margin-top: 200px;
-
 }
+
+/* .video_block img:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transition: 0.5s ease-out 0.5s
+} */
 
 .video_block p {
 	color: white;
@@ -211,11 +229,197 @@ nav {
 
 }
 
+.work_fields {
+
+}
+
+.work_fields h2+p {
+	font-family: 'Playfair Display', serif;
+}
+
+.work_fields h2 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 70px;
+	color: #413d4b;
+}
+
+.work_fields p {
+	text-align: center;
+	font-size: 14px;
+	color: #78767c;
+	margin-top: 17px;
+}
+
+.after_line::after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+	padding-top: 20px;
+	border-bottom: 2px solid #c6c4c9;
+}
+
+.services_cards_row_1 {
+
+	margin-top: 84px;
+}
+
+.services_cards_row_1 img {
+	width: 49px;
+	height: 49px;
+}
+
+.services_cards_row_1 ul {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap:90px;
+}
+
+.services_cards_row_1 li {
+	overflow: hidden;
+}
 
 
+.services_cards_row_1 h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #78767c;
+	margin-top: 35px;
+}
 
+.services_cards_row_1 p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	color: #78767c;
+	margin-top: 28px;
+}
 
+.services_cards_row_2 ul {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap:90px;
+}
 
+.services_cards_row_2 {
+	margin-top: 84px;
+	margin-bottom: 104px;
+}
+
+.services_cards_row_2 li {
+	overflow: hidden;
+}
+
+.services_cards_row_2 h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #78767c;
+	margin-top: 35px;
+}
+
+.services_cards_row_2 p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	color: #78767c;
+	margin-top: 28px;
+}
+
+.team_card_panel {
+	background: url(images/forest2.png);
+	background-size: cover;
+
+	overflow: hidden;
+	text-align: center;
+}
+
+.team_cards ul {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 10px;
+	margin-top: 47px;
+}
+
+.team_card_panel .team_cards img {
+	width: 100%;
+		box-sizing: content-box;
+}
+
+.team_card_panel h2 {
+	color: #ffffff;
+	margin-top: 70px;
+}
+
+.team_card_panel .after_line p {
+	color: #f9f9f9;
+	margin-top: 20px;
+}
+
+.team_card_panel .after_line::after {
+    border-bottom: 2px solid #655c80;
+}
+
+.team_card_panel .team_cards h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #f3f3f5;
+	padding-top: 20px;
+}
+
+.team_card_panel .team_cards li {
+	border-top: 1px #78767c solid;
+	border-left: 1px #78767c solid;
+	border-right: 1px #78767c solid;
+	border-bottom: 1px #78767c solid;
+}
+
+.team_card_panel .team_cards p {
+	margin-top: 12px;
+	margin-bottom: 27px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: #9e9cae;
+}
+
+.team_card_panel p {
+	margin-top: 70px;
+}
+
+.team_card_panel p:last-of-type {
+	color: #bab9c5;
+}
+
+.team_card_panel .team_card_panel_my_button {
+	margin-top: 42px;
+	margin-bottom: 70px;
+}
+
+.team_card_panel .team_card_panel_my_button a {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border: 1px solid #00e0d0;
+	border-radius: 3px;
+	color: #00e0d0;
+	padding: 12px 17px 12px 17px;
+}
+
+.team_card_panel .team_card_panel_my_button a:hover {
+	background-color:#00e0d0;
+	color: black;
+	transition: 0.1s ease-out 0.1s
+}
 
 
 
@@ -278,6 +482,21 @@ nav {
 
 		.about_us {
 	    padding-left: 50px;
+	}
+
+	.team_cards ul {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.team_cards li {
+	margin-bottom: 20px;
+	}
+
+	.team_card_panel .wrapper {
+		width: 100%;
 	}
 
 
