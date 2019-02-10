@@ -229,9 +229,6 @@ nav {
 
 }
 
-.work_fields {
-
-}
 
 .work_fields h2+p {
 	font-family: 'Playfair Display', serif;
@@ -419,6 +416,171 @@ nav {
 	background-color:#00e0d0;
 	color: black;
 	transition: 0.1s ease-out 0.1s
+}
+
+.our_works {
+	text-align: center;
+}
+
+.our_works .wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.our_works h3 {
+	margin-top: 70px;
+	font-family: 'Playfair Display', serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: #413d4b;
+}
+
+
+.our_works .wrapper a {
+	margin-top: 65px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #413d4b;
+}
+
+.our_works .wrapper  img {
+	position: relative;
+	color: #6c6c6c;
+	width: 10px;
+	height: 15px;
+	vertical-align: middle;
+	margin-left: 9px;
+}
+
+.our_works .our_works_row  {
+	margin-top: 65px;
+}
+
+.our_works .our_works_row ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.our_works .our_works_row ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.our_works .our_works_my_button  {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.our_works .our_works_my_button a {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border: 1px solid #00e0d0;
+	border-radius: 3px;
+	color: #00e0d0;
+	padding: 12px 17px 12px 17px;
+}
+
+.our_works .our_works_my_button a:hover {
+	background-color:#00e0d0;
+	color: black;
+	transition: 0.1s ease-out 0.1s
+}
+
+
+.people_say_wrapper {
+	width: 760px;
+	margin: 0 auto;
+}
+
+.people_say {
+	text-align: center;
+	background: url(images/forest3.png);
+	background-size: cover;
+	width: 100%;
+}
+
+
+.colon {
+	padding-top: 70px;
+}
+
+.people_say p {
+	margin-top: 47px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #bfbbc9;
+}
+
+.people_say h3 {
+	margin-top: 55px;
+	font-family: 'Roboto', serif;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+
+.people_say .people_say_position p {
+	margin-top: 13px;
+	color: ##bfbbc9;
+}
+
+.people_say_images .back_bracket img {
+	position: relative;
+	padding-top: 10px;
+	width: 11px;
+	height: 21px;
+}
+
+.people_say_images .back_bracket img:hover {
+	position: relative;
+	padding-top: 10px;
+	width: 11px;
+	height: 21px;
+}
+
+.people_say_images .forward_bracket img {
+	position: relative;
+	padding-top: 10px;
+	width: 11px;
+	height: 21px;
+	color: #9f9f9f;
+}
+
+.people_say_images .forward_bracket img:hover {
+	position: relative;
+	padding-top: 10px;
+	width: 11px;
+	height: 21px;
+}
+
+.people_say_images img {
+	width: 45px;
+	height: 45px;
+}
+
+.people_say_images img:hover {
+	width: 70px;
+	height: 70px;
+	transition: 0.3s ease-in-out 0.1;
+}
+
+.people_say ul {
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.people_say ul li {
+padding: 59px 16px 70px 16px;
 }
 
 
