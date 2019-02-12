@@ -21,20 +21,20 @@
 
         <nav>
           <div class="my_nav" id="my_nav_burger">
-          <a href="#">Home</a>
-          <a href="#">ABOUT</a>
-          <a href="#">EXPERTISE</a>
-          <a href="#">TEAMS</a>
-          <a href="#">WORKS</a>
-          <a href="#">PEOPLE SAY</a>
-          <a href="#">CONTACT</a>
+          <a href="#HOME">Home</a>
+          <a href="#ABOUT">ABOUT</a>
+          <a href="#EXPERTISE">EXPERTISE</a>
+          <a href="#TEAM">TEAM</a>
+          <a href="#WORKS">WORKS</a>
+          <a href="#PEOPLE SAY">PEOPLE SAY</a>
+          <a href="#CONTACT_SECTION">CONTACT</a>
           <a href="#" id="menu" class="icon">&#9776;</a>
           </div>
         </nav>
       </div>
     </header>
 
-    <section class="main_welcome">
+    <section class="main_welcome" id="HOME">
       <div class="wrapper">
         <h1>We Are Awesome Creative Agency</h1>
         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
@@ -51,7 +51,7 @@
     </section>
       </div>
 
-    <section class="our_story">
+    <section class="our_story" id="ABOUT">
       <div class="wrapper">
         <div class="our_story_container">
         <div class="BigLogo"><img src="images/TajamBigLogo.png" alt=""></div>
@@ -72,7 +72,7 @@
       </div>
     </section>
 
-    <section class="work_fields">
+    <section class="work_fields" id="EXPERTISE">
       <div class="wrapper">
         <h2>EXPERTISE</h2>
         <span class="after_line"><p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p></span>
@@ -105,7 +105,7 @@
       </div>
     </section>
 
-    <section class="team_card_panel">
+    <section class="team_card_panel" id="TEAM">
       <div class="wrapper">
         <h2>MEET OUR AMAZING TEAM</h2>
         <span class="after_line"><p>lorem ipsum dolor sit amet proin gravida nibg vel velit</p></span>
@@ -139,7 +139,7 @@
       </div>
     </section>
 
-    <section class="our_works">
+    <section class="our_works" id="WORKS">
       <div class="wrapper">
         <h3>OUR WORKS</h3>
         <a href="">See All Projects in dribbble <img src="images/greater_than_icon.png" alt=""></a>
@@ -165,7 +165,7 @@
 
     </section>
 
-    <section class="people_say">
+    <section class="people_say" id="PEOPLE SAY">
       <div class="people_say_wrapper">
         <div class="colon"><img src="images/colon_icon.png" alt=""></div>
         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
@@ -185,15 +185,19 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="CONTACT_SECTION">
       <div class="wrapper">
         <div class="contact_form">
           <h1>GIVE US A GOOD NEWS</h1>
-          <form action="#" name="tajem_form" method="post"></form>
+          <form action="#" name="tajem_form" method="post">
           <p><input type="text" name="clients_name" placeholder="Name"></p>
           <p><input type="email" name="clients_email" placeholder="Email"></p>
           <p><input type="text" name="subject" placeholder="Subject"></p>
           <textarea name="text" placeholder="Your Message"></textarea>
+          <div class="form_button">
+            <input type="submit" id="sub-btn" value="SUBMIT">
+          </div>
+          </form>
         </div>
 
         <div class="our_clients">

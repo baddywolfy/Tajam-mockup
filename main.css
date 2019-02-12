@@ -447,6 +447,11 @@ nav {
 	color: #413d4b;
 }
 
+.our_works .wrapper a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
 .our_works .wrapper  img {
 	position: relative;
 	color: #6c6c6c;
@@ -585,6 +590,10 @@ nav {
 padding: 59px 16px 70px 16px;
 }
 
+.contact h1 {
+	margin-top: 70px;
+	color: #413d4b;
+}
 
 
 .contact_form input {
@@ -606,6 +615,7 @@ padding: 59px 16px 70px 16px;
 	padding-bottom: 18px;
 	padding-left: 22px;
 	padding-right: 2px;
+	resize: none;
 }
 .contact_form input, textarea {
     border: 1px solid #e5e5e5;
@@ -617,6 +627,29 @@ padding: 59px 16px 70px 16px;
 
 .contact_form textarea::placeholder {
   color: #acabb1;
+}
+
+.form_button {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#sub-btn {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	border: 1px solid #00e0d0;
+	border-radius: 3px;
+	color: #00e0d0;
+	padding: 12px 17px 12px 17px;
+	width: 118px;
+	margin-bottom: 70px;
+}
+
+#sub-btn:hover {
+	background-color:#00e0d0;
+	color: black;
+	transition: 0.1s ease-out 0.1s
 }
 
 .contact .wrapper {
@@ -639,7 +672,7 @@ padding: 59px 16px 70px 16px;
 }
 
 .contact .clients_logos {
-	margin-top: 35px;
+	margin-top: 15px;
 }
 
 /* Responsiveness Adaptive */
