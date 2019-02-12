@@ -501,10 +501,11 @@ nav {
 .people_say {
 	text-align: center;
 	background: url(images/forest3.png);
+	background-position: center;
 	background-size: cover;
 	width: 100%;
+	height: 65vh;
 }
-
 
 .colon {
 	padding-top: 70px;
@@ -571,8 +572,9 @@ nav {
 .people_say_images img:hover {
 	width: 70px;
 	height: 70px;
-	transition: 0.3s ease-in-out 0.1;
+	transition: 300ms ease;
 }
+
 
 .people_say ul {
 	display: inline-flex;
