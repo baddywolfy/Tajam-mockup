@@ -675,6 +675,140 @@ padding: 59px 16px 70px 16px;
 	margin-top: 15px;
 }
 
+footer {
+	background: #a19ab4;
+	background-image: url("images/computer_table_image.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+footer h2 {
+	color: #fff;
+	font-family: 'Roboto', serif;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+footer .wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_info {
+	padding-top:  55px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.footer_info p {
+	margin-top: 30px;
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 26px;
+	text-align: left;
+	color: #ffffff;
+}
+
+.footer_info .footer_menu {
+	margin-top: 80px;
+	margin-bottom: 72px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_info .footer_menu h3 {
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+
+.footer_location  {
+	padding-top: 80px;
+}
+
+.footer_location  .location_line {
+	display: inline-block;
+	margin-top: 52px;
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #ffffff;
+	line-height: 26px;
+
+}
+
+.footer_location  .location_line img {
+	margin-right: 16px;
+}
+
+.footer_location  .phone_line {
+	display: inline-block;
+	margin-top: 28px;
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+.footer_location  .phone_line img {
+	margin-right: 16px;
+}
+
+.footer_subscribe_block {
+	padding-top: 80px;
+	margin-left: 10px;
+	padding-left: 15px;
+}
+
+.subscribe_btn input {
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 1px solid #a099b3;
+	color: #a099b3;
+	margin-top: 60px;
+	margin-bottom: 27px;
+	width: 211px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 22px;
+}
+
+.subscribe_btn input::placeholder {
+	color: #a099b3;
+}
+
+.subscribe_btn {
+	display: flex;
+	flex-direction: row;
+
+}
+
+#footer_sub-btn {
+	background-image: url("images/flying_paper.png");
+	margin-top: 61px;
+	margin-left: 20px;
+	width: 77px;
+	height: 50px;
+
+}
+
+
+
+
+
+
 /* Responsiveness Adaptive */
 
 @media screen and (max-width: 1010px) {
